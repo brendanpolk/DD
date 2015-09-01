@@ -33,19 +33,27 @@ h1 {
 }
 
 h2 {
+  color: #f1f1f1;
   font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.75em;
 }
 
 h3 {
+  color: #f1f1f1;
   font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-size: 1.75em;
+  font-weight: 300;
+  line-height: 1.5em;
 }
 
 p {
   color: #f1f1f1;
   font-family: 'Roboto', helvetica, arial, sans-serif;
   font-weight: 300;
-  font-size: 1em;
-  line-height: 1em;
+  font-size: 1.25em;
+  line-height: 1.25em;
 
 }
 
@@ -53,16 +61,16 @@ ul, li {
   font-family: 'Roboto', helvetica, arial, sans-serif;
   font-weight: 300;
   list-style-type: none;
+  font-size: 1.15em;
 }
 
 a {
   color: #00fbe1;
   text-decoration: none;
-
 }
 
 a:hover {
-
+  color: #f1f1f1;
 }
 
 /*/////////////////////////////////
@@ -112,10 +120,11 @@ a:hover {
   margin: 0 auto;
   margin-top: 20px;
   display: inline-block;
+  text-align: right;
 }
 
 .main-menu li {
-  padding-right: 20px;
+  padding-right: 25px;
   display: inline;
   text-align: right;
 }
@@ -135,11 +144,10 @@ a:hover {
   margin:0 auto;
   margin-top: 50px;
   float: middle;
-  padding: 20px;
+  padding: 20px 20px 30px 20px;
 }
 .blog-post-content {
 }
-
 
 .blog-post-title h1{
   line-height: 1.5em;
@@ -160,11 +168,95 @@ a:hover {
   margin-top: 20px;
 }
 
+.read-button:hover {
+  background-color: #f1f1f1;
+}
+
 .read-button p {
   color: #262626;
   text-align: center;
 }
 
+.alt-container {
+  width: 100%;
+  display: block;
+  margin:0 auto;
+  padding: 20px;
+}
+
+.alt-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.alt-column {
+  width: 28%;
+  background-color: #262626;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 20px;
+
+}
+
+/*/////////////////////////////////
+
+FOOTER STYLES 
+
+/////////////////////////////////*/
+.footer-container {
+  width: 100%;
+  background-color: #262626;
+  display: block;
+  margin:0 auto;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.footer {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 50px 0px 50px 0px;
+}
+
+.footer p {
+  font-size: 1em;
+}
+
+.footer-column {
+  width: 23%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-title {
+}
+
+.footer-content {
+}
+
+.footer-copyright-container {
+  width: 100%;
+  background-color: #262626;
+  display: block;
+  margin:0 auto;
+  padding: 20px;
+  border-top: 1px solid #666;
+}
+
+.footer-copyright{
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-copyright p {
+  color: #666;
+  font-size: .75em;
+}
 
 
 
