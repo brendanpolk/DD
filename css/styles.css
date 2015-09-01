@@ -1,0 +1,194 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol,  blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
+
+
+
+/*/////////////////////////////////////////////////////
+
+  Created By: Brendan Polk // www.brendanpolk.com // for Dev Dungeon //www.devdungeon.com//
+
+/////////////////////////////////////////////////////*/
+
+
+
+/*/////////////////////////////////
+
+  GLOBAL STYLES 
+
+/////////////////////////////////*/
+
+html {
+}
+
+body {
+  background-color: #3b3b3b;
+}
+
+h1 {
+  color: #f1f1f1;
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 2.5em;
+  line-height: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+h3 {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+p {
+  color: #f1f1f1;
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1em;
+
+}
+
+ul, li {
+  font-family: 'Roboto', helvetica, arial, sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+}
+
+a {
+  color: #00fbe1;
+  text-decoration: none;
+
+}
+
+a:hover {
+
+}
+
+/*/////////////////////////////////
+
+  BODY STYLES 
+
+/////////////////////////////////*/
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header-container {
+  width: 100%;
+  background-color: #262626;
+  margin: 0 auto;
+  display:inline-block;
+  padding: 20px 0px 20px 0px;
+}
+
+.header {
+  width: 100%;
+  max-width: 1170px;
+  padding-top: 20px;
+  background-color: #262626;
+  margin: 0 auto;
+  display: block;
+}
+
+.logo {
+  width: 60%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 350px;
+}
+
+.main-menu {
+  width: 40%;
+  float:right;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.main-menu li {
+  padding-right: 20px;
+  display: inline;
+  text-align: right;
+}
+
+
+/* BODY */
+.body-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.blog-post-container{
+  width: 100%;
+  max-width: 1170px;
+  background-color: #262626;
+  display: block;
+  margin:0 auto;
+  margin-top: 50px;
+  float: middle;
+  padding: 20px;
+}
+.blog-post-content {
+}
+
+
+.blog-post-title h1{
+  line-height: 1.5em;
+  padding: 0px 20px 0px 20px;
+}
+
+.blog-post-excerpt p{
+  line-height: 1.5em;
+  padding: 20px 20px 0px 20px;
+}
+
+.read-button {
+  background-color: #00fbe1;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.read-button p {
+  color: #262626;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
