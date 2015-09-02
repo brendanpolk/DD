@@ -1,14 +1,11 @@
 /*RESET*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent;} body {line-height: 1;}ol,  blockquote, q{quotes:none;} blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;} :focus{outline:0;} ins{text-decoration:none;} del{text-decoration:line-through;} table{border-collapse:collapse; border-spacing:0;}
 
-
-
-/*/////////////////////////////////////////////////////
+/*//////////////////////////////////////////////////////////////////////////////////////////////
 
   Created By: Brendan Polk // www.brendanpolk.com // for Dev Dungeon //www.devdungeon.com//
 
-/////////////////////////////////////////////////////*/
-
+//////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 /*/////////////////////////////////
@@ -24,28 +21,31 @@ body {
   background-color: #3b3b3b;
 }
 
-h1 {
+h1, h2, h3, h4, h5 {
   color: #f1f1f1;
   font-family: 'Roboto', helvetica, arial, sans-serif;
   font-weight: 300;
+}
+
+h1 {
   font-size: 2.5em;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 h2 {
-  color: #f1f1f1;
-  font-family: 'Roboto', helvetica, arial, sans-serif;
   font-size: 2em;
-  font-weight: 300;
   line-height: 1.75em;
 }
 
 h3 {
-  color: #f1f1f1;
-  font-family: 'Roboto', helvetica, arial, sans-serif;
   font-size: 1.75em;
-  font-weight: 300;
   line-height: 1.5em;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #666;
 }
 
 p {
@@ -73,40 +73,34 @@ a:hover {
   color: #f1f1f1;
 }
 
-/*/////////////////////////////////
-
-  BODY STYLES 
-
-/////////////////////////////////*/
-
 .container {
   width: 100%;
   margin: 0 auto;
   padding: 0;
 }
 
-/* HEADER */
+/*/////////////////////////////////
+
+  HEADER STYLES 
+
+/////////////////////////////////*/
 
 .header-container {
   width: 100%;
   background-color: #262626;
   margin: 0 auto;
-  display:inline-block;
-  padding: 20px 0px 20px 0px;
 }
 
 .header {
   width: 100%;
   max-width: 1170px;
-  padding-top: 20px;
-  background-color: #262626;
   margin: 0 auto;
-  display: block;
+  padding-top: 10px;
 }
 
 .logo {
   width: 60%;
-  display: inline-block;
+  display: inline;
   margin: 0 auto;
 }
 
@@ -129,8 +123,11 @@ a:hover {
   text-align: right;
 }
 
+/*/////////////////////////////////
 
-/* BODY */
+  BODY STYLES 
+
+/////////////////////////////////*/
 .body-container {
   width: 100%;
   max-width: 100%;
@@ -138,25 +135,63 @@ a:hover {
 
 .blog-post-container{
   width: 100%;
-  max-width: 1170px;
-  background-color: #262626;
   display: block;
   margin:0 auto;
   margin-top: 50px;
-  float: middle;
-  padding: 20px 20px 30px 20px;
-}
-.blog-post-content {
 }
 
-.blog-post-title h1{
-  line-height: 1.5em;
-  padding: 0px 20px 0px 20px;
+.blog-post {
+  width: 100%;
+  max-width: 1170px;
+  background-color: #262626;
+  margin: 0 auto;
+}
+
+.blog-post-content {
+  width: 100%;
+  max-width: 1170px;
+  padding: 20px 20px 30px 20px;
+  display: inline-block;
+}
+
+.blog-post-title {
+  width: 100%;
+  max-width: 1170px;
+}
+.blog-post-title-text {
+  width: 80%;
+  max-width: 850px;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.blog-post-title-date {
+  width: 20%;
+  float: right;
+  text-align: right;
+  display: inline;
+  padding: 20px 50px 0px 0px;
 }
 
 .blog-post-excerpt p{
   line-height: 1.5em;
-  padding: 20px 20px 0px 20px;
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.post-meta {
+  width: 100%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.post-meta li {
+  color: #666;
+  font-size: .75em;
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
 }
 
 .read-button {
@@ -165,7 +200,7 @@ a:hover {
   padding: 10px;
   border-radius: 10px;
   margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .read-button:hover {
@@ -175,13 +210,16 @@ a:hover {
 .read-button p {
   color: #262626;
   text-align: center;
+  padding: 0px;
 }
+
+
+
 
 .alt-container {
   width: 100%;
   display: block;
   margin:0 auto;
-  padding: 20px;
 }
 
 .alt-content {
@@ -189,16 +227,50 @@ a:hover {
   max-width: 1170px;
   margin: 0 auto;
   margin-top: 50px;
-  padding: 20px;
 }
 
-.alt-column {
-  width: 28%;
+.column {
+  width: 30%;
   background-color: #262626;
   display: inline-block;
-  margin-right: 10px;
-  padding: 20px;
+}
 
+#alt-column-1 {
+}
+
+#alt-column-2 {
+}
+
+#alt-column-3 {
+}
+
+#alt-column-1, #alt-column-2, #alt-column-3, h2 {
+  padding: 20px 0px 0px 20px;
+}
+
+#alt-column-1, #alt-column-2, #alt-column-3, p {
+  padding: 20px 0px 20px 20px;
+}
+
+.ad-container {
+  width: 100%;
+  display: block;
+  margin:0 auto;
+  margin-top: 50px;
+}
+
+.ad-area {
+  width: 100%;
+  max-width: 1170px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.ad-area p {
+  color: #262626;
+  vertical-align: middle;
 }
 
 /*/////////////////////////////////
@@ -212,7 +284,6 @@ FOOTER STYLES
   display: block;
   margin:0 auto;
   margin-top: 50px;
-  padding: 20px;
 }
 
 .footer {
@@ -243,7 +314,6 @@ FOOTER STYLES
   background-color: #262626;
   display: block;
   margin:0 auto;
-  padding: 20px;
   border-top: 1px solid #666;
 }
 
@@ -251,6 +321,7 @@ FOOTER STYLES
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
+  padding: 10px 0px 10px 0px;
 }
 
 .footer-copyright p {
