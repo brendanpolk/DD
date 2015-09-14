@@ -15,9 +15,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /////////////////////////////////*/
 
 html {
+  width: 100%;
 }
 
 body {
+  width: 100%;
   background-color: #3b3b3b;
 }
 
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 2.5em;
-  line-height: 1.5em;
+  line-height: 1.25em;
 }
 
 h2 {
@@ -53,15 +55,14 @@ p {
   font-family: 'Roboto', helvetica, arial, sans-serif;
   font-weight: 300;
   font-size: 1.25em;
-  line-height: 1.25em;
-
+  line-height: 1.5em;
 }
 
 ul, li {
   font-family: 'Roboto', helvetica, arial, sans-serif;
   font-weight: 300;
   list-style-type: none;
-  font-size: 1.15em;
+  font-size: 1em;
 }
 
 a {
@@ -74,9 +75,6 @@ a:hover {
 }
 
 .container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
 }
 
 /*/////////////////////////////////
@@ -88,20 +86,27 @@ a:hover {
 .header-container {
   width: 100%;
   background-color: #262626;
-  margin: 0 auto;
 }
 
 .header {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding-top: 10px;
+  background-color: #262626
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 20px 0px 20px 0px;
 }
 
 .logo {
   width: 60%;
   display: inline;
   margin: 0 auto;
+  padding-left: 20px;
 }
 
 .logo img {
@@ -112,13 +117,13 @@ a:hover {
   width: 40%;
   float:right;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
   display: inline-block;
   text-align: right;
 }
 
 .main-menu li {
-  padding-right: 25px;
+  padding-left: 25px;
   display: inline;
   text-align: right;
 }
@@ -130,13 +135,9 @@ a:hover {
 /////////////////////////////////*/
 .body-container {
   width: 100%;
-  max-width: 100%;
 }
 
 .blog-post-container{
-  width: 100%;
-  display: block;
-  margin:0 auto;
   margin-top: 50px;
 }
 
@@ -148,21 +149,16 @@ a:hover {
 }
 
 .blog-post-content {
-  width: 100%;
-  max-width: 1170px;
   padding: 20px 20px 30px 20px;
   display: inline-block;
 }
 
 .blog-post-title {
-  width: 100%;
-  max-width: 1170px;
 }
+
 .blog-post-title-text {
-  width: 80%;
   max-width: 850px;
   display: inline-block;
-  padding-left: 20px;
 }
 
 .blog-post-title-date {
@@ -173,34 +169,27 @@ a:hover {
   padding: 20px 50px 0px 0px;
 }
 
-.blog-post-excerpt p{
-  line-height: 1.5em;
-  display: inline-block;
-  padding-right: 40px;
+.blog-post-excerpt {
+  margin-top: 20px;
 }
 
 .post-meta {
-  width: 100%;
-  display: inline-block;
-  margin: 0px;
-  padding: 0px;
+  padding-top: 20px;
 }
 
 .post-meta li {
   color: #666;
   font-size: .75em;
   display: inline;
-  list-style-type: none;
-  margin-left: 20px;
 }
 
 .read-button {
   background-color: #00fbe1;
   width: 100px;
-  padding: 10px;
+  padding: 5px 10px 5px 10px;
   border-radius: 10px;
-  margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
+  display: block;
 }
 
 .read-button:hover {
@@ -211,9 +200,8 @@ a:hover {
   color: #262626;
   text-align: center;
   padding: 0px;
+  font-size: 1em;
 }
-
-
 
 
 .alt-container {
@@ -230,27 +218,24 @@ a:hover {
 }
 
 .column {
-  width: 30%;
+  width: 28.5%;
   background-color: #262626;
   display: inline-block;
+  padding: 20px;
 }
 
 #alt-column-1 {
 }
 
 #alt-column-2 {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 #alt-column-3 {
 }
 
-#alt-column-1, #alt-column-2, #alt-column-3, h2 {
-  padding: 20px 0px 0px 20px;
-}
 
-#alt-column-1, #alt-column-2, #alt-column-3, p {
-  padding: 20px 0px 20px 20px;
-}
 
 .ad-container {
   width: 100%;
@@ -290,7 +275,8 @@ FOOTER STYLES
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 50px 0px 50px 0px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .footer p {
@@ -300,7 +286,7 @@ FOOTER STYLES
 .footer-column {
   width: 23%;
   display: inline-block;
-  margin-right: 20px;
+  padding: 50px 20px 50px 0px;
 }
 
 .footer-title {
@@ -321,7 +307,7 @@ FOOTER STYLES
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 20px;
 }
 
 .footer-copyright p {
